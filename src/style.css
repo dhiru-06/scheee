@@ -1,0 +1,64 @@
+body{
+    background-color: rgb(215, 236, 118);
+
+}
+
+.App{ 
+    padding-top: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+
+}
+
+.title{
+    text-align: center;
+    font-size: 26px;
+}
+
+input{
+    align-items: center;
+    text-align: center;
+    margin: 5px 10px;
+    padding: 5px;
+}
+
+.btn{
+    background:rgb(195, 22, 238);
+    padding: 4px 60px;
+    border-radius: 6px;
+}
+
+.list{
+    padding: 5px
+}
+
+.list-item{
+    margin: 25px 0px;
+    padding: 5px;
+    box-shadow: 1px 1px 4px #000;
+}
+
+.delete-btn{
+    cursor: pointer;
+    float: right;
+    padding-left: 2px;
+    padding-bottom: 20px;
+}
+
+.back{
+    height: 15rem;
+    width: 100%;
+    
+}
+
+.sheader{
+    text-align: center;
+}
+
+@media (min-width: 800px) {
+    .back {
+      height:450px
+    }
+  }
